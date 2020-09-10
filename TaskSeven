@@ -18,3 +18,5 @@ for (int i = input; i >= 0; i--) {
   } else
   println(i);
 }
+
+// if it is to work with negative vales we would have to change the loop to add 1 instead of subtract 1.
