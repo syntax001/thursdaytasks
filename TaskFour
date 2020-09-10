@@ -1,0 +1,21 @@
+/* TASK FOUR
+4.a print out numbers from 0 to 20 using a for loop.
+4.b alter the for loop from 4.a to only print even numbers (hint: google 'java modulus even number')
+4.c print out the same result as in task 4.b using a while loop instead of a for loop.*/
+
+// for loop printing 0-20
+for (int countToTwenty = 0; countToTwenty < 21; countToTwenty += 1) {
+
+
+// if countToTwenty / 2 = 0, then its an even number, meaning it will print
+  if (countToTwenty % 2 == 0) {
+    println(countToTwenty);
+  }
+}
+
+// While loop
+int whileTwenty = 0;
+while (whileTwenty < 21) {
+  println(whileTwenty);
+  whileTwenty += 1;
+}
